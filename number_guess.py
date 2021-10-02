@@ -29,7 +29,7 @@ def juego():
 
 
         elif sele_num == solution:
-            print generated_number
+            print 'The number was',generated_number
 
         else:
             print 'Ohh that was not the number!'
