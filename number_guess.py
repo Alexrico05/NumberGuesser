@@ -16,7 +16,7 @@ def juego():
 
     generated_number = random.randint(lower_number, max_number)
 
-    def attemps():
+    def attempts():
         print('Whats your choice?')
         sele_num = input()
 
@@ -34,10 +34,10 @@ def juego():
         else:
             print('Ohh that was not the number!')
             if __name__ == '__main__':
-                attemps()
+                attempts()
 
     if __name__ == '__main__':
-            attemps()
+            attempts()
 
         
 if __name__ == '__main__':
